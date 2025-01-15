@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Testing Explained</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf7ec;
+            color: #2c3e50;
+        }
+
+        header {
+            background-color: #145a32;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 10%;
+            background-color: #fdf7ec;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .content div {
+            background: white;
+            border: 1px solid #d1d1d1;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            color: #145a32;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        /* Call to Action */
+        .cta {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .cta a {
+            display: inline-block;
+            background-color: #145a32;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta a:hover {
+            background-color: #0d3d23;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: #145a32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>How Online Testing Works</h1>
+    </header>
+
+    <!-- Main Section -->
+    <section>
+        <div class="content">
+            <!-- Introduction -->
+            <div>
+                <h2>Revolutionizing Testing</h2>
+                <p>Online testing is a modern, efficient, and eco-friendly alternative to traditional exams. By reducing paper use, it protects the environment and benefits both students and teachers.</p>
+            </div>
+
+            <!-- How It Works -->
+            <div>
+                <h2>The Process</h2>
+                <p>Online exams use special software to create a secure and user-friendly testing environment, with features like automatic question generation, exam scheduling, and instant grading.</p>
+            </div>
+
+            <!-- Benefits -->
+            <div>
+                <h2>Benefits</h2>
+                <p>Save trees, reduce costs, and modernize education. Online tests offer instant feedback, flexibility, and accessibility while supporting sustainable practices.</p>
+            </div>
+
+            <!-- Implementation -->
+            <div>
+                <h2>How to Start</h2>
+                <p>Set up reliable software, train teachers and students, and pilot the program before rolling it out to your entire school. Transitioning is simple and impactful.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="cta">
+            <a href="#">Support Paperless Education</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Join us in creating a sustainable future with online testing.</p>
+    </footer>
+</body>
+</html>
